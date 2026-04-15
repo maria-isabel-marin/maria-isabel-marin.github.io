@@ -1,0 +1,40 @@
+title: "María Isabel Marín"
+description: "Researcher · Engineer · NLP & Digital Humanities"
+baseurl: ""
+url: "https://maria-isabel-marin.github.io"
+
+theme: just-the-docs
+
+# Navigation
+nav_sort: order
+
+# Aux links (top right)
+aux_links:
+  "GitHub":
+    - "https://github.com/maria-isabel-marin"
+
+aux_links_new_tab: true
+
+# Footer
+footer_content: "María Isabel Marín Morales · Groningen, Netherlands"
+
+# Search
+search_enabled: true
+search_tokenizer_separator: /[\s\-/]+/
+
+# Color scheme: light or dark
+color_scheme: light
+
+# Heading anchor links
+heading_anchors: true
+
+# Plugins
+plugins:
+  - jekyll-seo-tag
+
+# Exclude from build
+exclude:
+  - "*.sh"
+  - "README.md"
+  - Gemfile
+  - Gemfile.lock
