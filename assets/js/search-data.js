@@ -496,6 +496,31 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
+            },},{id: "teachings-computational-linguistics",
+          title: 'Computational Linguistics',
+          description: "Courses in the computational linguistics track at Universidad de Antioquia, Facultad de Comunicaciones y Filología (Filología Hispánica program).",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/computational-linguistics/";
+            },},{id: "teachings-geographic-information-systems",
+          title: 'Geographic Information Systems',
+          description: "GIS courses at graduate level (Especialización and Maestría) at Tecnológico de Antioquia, covering spatial data management, interoperability, and risk management applications.",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/gis-courses/";
+            },},{id: "teachings-graduate-seminars-amp-software-design",
+          title: 'Graduate Seminars &amp;amp; Software Design',
+          description: "Graduate-level seminars in research methods and software design at Tecnológico de Antioquia, for Especialización and Maestría programs.",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/graduate-seminars/";
+            },},{id: "teachings-software-engineering-amp-programming",
+          title: 'Software Engineering &amp;amp; Programming',
+          description: "Core software engineering and programming courses taught across several institutions: Universidad de Antioquia (UdeA), Tecnológico de Antioquia (TdeA), Universidad Luis Amigó (ULA), and Corporación Universitaria Lasallista (CUL).",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/software-engineering/";
+            },},{id: "teachings-special-programs",
+          title: 'Special Programs',
+          description: "Programming bootcamp course delivered as part of Colombia&#39;s Misión TIC 2022 initiative, a national program to train 100,000 people in digital skills, co-run by Universidad de Antioquia and Colombia&#39;s Ministry of ICT (MinTIC).",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/special-programs/";
             },},{
         id: 'social-email',
         title: 'email',
