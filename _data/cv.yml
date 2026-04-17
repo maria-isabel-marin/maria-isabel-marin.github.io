@@ -1,0 +1,173 @@
+cv:
+  name: María Isabel Marín Morales
+  label: PhD Candidate in Computational Linguistics
+  email: ""
+  location: Groningen, Netherlands
+  image: ""
+  summary: >
+    Systems & Informatics Engineer and Master of Science (Universidad Nacional de Colombia),
+    PhD candidate at the University of Groningen. Research at the intersection of computational
+    linguistics, cognitive linguistics, NLP, and digital humanities, with a focus on
+    Spanish-language corpora and conflict/peace narratives.
+
+  social_networks:
+    - network: GitHub
+      username: maria-isabel-marin
+
+  sections:
+    Education:
+      - institution: University of Groningen
+        location: Groningen, Netherlands
+        url: https://www.rug.nl/
+        area: Computational Linguistics & AI
+        studyType: PhD Candidate
+        start_date: 2022
+        end_date: present
+        highlights:
+          - "Graduate School of Humanities, Faculty of Arts"
+          - "Thesis: From metaphor to narrative: Computational modelling of cultural discourse through MELT and Large Language Models"
+          - "Supervisors: Dr. Pablo Valdivia and Dr. Marc Esteve del Valle"
+          - "Funded by Colombia's Ministry of Science, Technology and Innovation (Minciencias, Call 906/2021)"
+
+      - institution: Universidad Nacional de Colombia
+        location: Medellín, Colombia
+        area: Computational Linguistics and Natural Language Processing
+        studyType: Master of Science
+        start_date: 2009
+        end_date: 2012
+        highlights:
+          - "Thesis: Red piloto de información hidrometeorológica para el Valle de Aburrá"
+          - "Advisors: Dr. José Fernando Jiménez Mejía and Dr. Carlos Mario Zapata Jaramillo"
+
+      - institution: Universidad Nacional de Colombia
+        location: Medellín, Colombia
+        area: Systems & Informatics Engineering
+        studyType: Bachelor of Engineering
+        start_date: 2003
+        end_date: 2009
+        highlights:
+          - "Research group: SINTELWEB — Sistemas Inteligentes Web (2007)"
+
+    Certificates:
+      - name: Natural Language Processing Specialization
+        date: 2024-01
+        issuer: DeepLearning.AI / Coursera
+        icon: fa-solid fa-certificate
+        description: "Credential ID: H8FYVPTAGDZ7"
+
+      - name: Fall School of Corpus and Computational Linguistics
+        date: 2017
+        issuer: Universidad de Antioquia, Centro de Idiomas
+        icon: fa-solid fa-graduation-cap
+        description: "20 hours"
+
+    Experience:
+      - company: University of Groningen
+        position: Requirements Analyst
+        location: Groningen, Netherlands
+        start_date: 2022
+        end_date: 2025
+        summary: >
+          Erasmus+ Project: Innovation Lab — Transform Your Teaching With the Digital Advisor Toolkit for Higher Education.
+          Consortium of 7 countries, coordinated by Universidad de Murcia.
+        highlights:
+          - Software requirements specification and development prioritization
+          - User acceptance testing for the development team
+
+      - company: ANECA — Agencia Nacional de Evaluación de la Calidad y Acreditación
+        position: Consultant
+        location: Spain
+        start_date: 2023
+        end_date: 2023
+        summary: >
+          Unidad de Internacionalización y Estudios. Evaluation of end-of-programme projects
+          and expert participation in Module 5 (R&D Evaluation, Doctoral Schools, Sustainable Development and Inclusion)
+          within the LAB Calidad que nos une training programme.
+
+      - company: Universidad de Antioquia
+        position: Lecturer (Profesora de Cátedra)
+        location: Medellín, Colombia
+        start_date: 2019
+        end_date: present
+        summary: >
+          Facultad de Ingeniería and Facultad de Comunicaciones y Filología.
+          Courses in Computational Linguistics and Software Engineering.
+
+      - company: Comisión para el Esclarecimiento de la Verdad (CEV)
+        position: Software Analyst
+        location: Colombia
+        start_date: 2021
+        end_date: 2022
+        summary: Sistema de Información Misional.
+        highlights:
+          - Microdata management in CKAN
+          - Data integration flows development
+          - Back/front development for the Metabuscador
+
+      - company: Tecnológico de Antioquia
+        position: Adjunct Professor (Profesora Ocasional)
+        location: Medellín, Colombia
+        start_date: 2011
+        end_date: 2021
+        summary: "Intermittent: 2011–2014, 2017–2018, 2020–2021. Software Engineering, GIS, and Research courses."
+
+      - company: Sistema de Alerta Temprana de Medellín y el Área Metropolitana (SIATA)
+        position: Software Developer
+        location: Medellín, Colombia (Universidad EAFIT)
+        start_date: 2011
+        end_date: 2016
+
+      - company: Fundación HTM
+        position: Software Developer
+        location: Medellín, Colombia
+        start_date: 2016
+        end_date: 2017
+
+      - company: Hidrológica Ingeniería S.A.S.
+        position: Software Developer
+        location: Medellín, Colombia
+        start_date: 2018
+        end_date: 2018
+
+    Projects:
+      - name: MetaphorModel.org
+        summary: >
+          AI-powered computational ecosystem for cultural narrative analysis, developed as part of the PhD research.
+          Comprises three integrated platforms for metaphor management, automatic detection, and corpus exploration.
+        highlights:
+          - "Metaphor Manager (manager.metaphormodel.org): management and analysis of metaphorical expressions in textual corpora"
+          - "MELT Processing (melt.metaphormodel.org): automatic metaphor detection via Metaphor Field-Loop Theory"
+          - "Research Corpus (corpus.metaphormodel.org): exploration platform for the conceptual metaphor corpus from Colombia's Truth Commission Final Report"
+        start_date: 2024
+        end_date: present
+
+    Skills:
+      - name: Computational Linguistics & NLP
+        level: Expert
+        icon: fa-solid fa-language
+        keywords: "Conceptual Metaphor Theory, Corpus Linguistics, Large Language Models, NLP for Spanish, Discourse Analysis"
+
+      - name: Programming & Software
+        level: Advanced
+        icon: fa-solid fa-code
+        keywords: "Python, R, Jekyll, CKAN, Git, SQL, JavaScript"
+
+      - name: Research Methods
+        level: Expert
+        icon: fa-solid fa-magnifying-glass
+        keywords: "Corpus Methods, Critical Discourse Analysis, Computational Modelling, Digital Humanities"
+
+    Languages:
+      - name: Spanish
+        summary: Native speaker
+
+      - name: English
+        summary: Professional proficiency (PhD instruction language)
+
+      - name: Dutch
+        summary: Basic (A2)
+
+    Interests:
+      - name: Research Interests
+        icon: fa-solid fa-microscope
+        keywords: "Conceptual Metaphor Theory, NLP for Spanish, Digital Humanities, Peace & Conflict Discourse, Corpus Linguistics, Large Language Models"
