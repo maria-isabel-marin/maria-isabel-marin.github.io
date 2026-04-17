@@ -129,6 +129,132 @@ cv:
         start_date: 2018
         end_date: 2018
 
+    Teaching:
+      - bullet: "**Undergraduate (2011–2025) · Computational Linguistics (UdeA, Filología Hispánica)**"
+      - label: "Trabajo de Grado"
+        details: "UdeA (2021–2026)"
+      - label: "Estadística y Lingüística Computacional"
+        details: "UdeA (2021–2022)"
+      - label: "Práctica Académica"
+        details: "UdeA (2020)"
+      - bullet: "**Undergraduate (2011–2025) · Software Engineering & Programming**"
+      - label: "Bases de Datos"
+        details: "UdeA Ing. Sistemas (2019–2020) · TdeA Ing. Software (2012–2014, 2018, 2020–2021) · ULA Ing. Sistemas (2017)"
+      - label: "Construcción / Desarrollo de Software"
+        details: "TdeA Ing. Software (2012, 2018, 2020–2021)"
+      - label: "Lenguajes de Programación"
+        details: "CUL Ing. Informática (2019) · ULA Ing. Sistemas (2017)"
+      - label: "Programación Web"
+        details: "TdeA Ing. Software (2018)"
+      - label: "Algoritmos y Programación"
+        details: "CUL Ing. Informática (2019)"
+      - label: "Estructuras de Datos"
+        details: "TdeA Ing. Software (2011)"
+      - label: "Definición de Requisitos"
+        details: "TdeA Ing. Software (2012–2014)"
+      - label: "Introducción a la Ingeniería de Sistemas"
+        details: "UdeA (2019–2021)"
+      - label: "Estadística Descriptiva"
+        details: "CUL Ing. Informática (2019)"
+      - bullet: "**Graduate & Special Programs (2012–2021)**"
+      - label: "Seminario de Investigación"
+        details: "TdeA, Esp. Seguridad de la Información (2018)"
+      - label: "Sistemas de Información Geográfica"
+        details: "TdeA, Esp. Gestión del Riesgo (2012, 2019) · TdeA, Mgmt. Gestión del Riesgo y Medio Ambiente (2012, 2019)"
+      - label: "Análisis y Diseño de Software"
+        details: "TdeA, Mgmt. Gestión de Tecnología de la Información (2018)"
+      - label: "Fundamentos de Programación en Python"
+        details: "UdeA / MinTIC, Programa Misión TIC 2022 (2021)"
+
+    Publications:
+      - title: "Shaping Peace and Sustainability: The Role of Metaphors in the Colombian Armed Conflict Narratives"
+        releaseDate: "2026"
+        publisher: "UCL Press · UCL Series on Comparative Literature and Culture"
+        summary: "Marín Morales, M. I. Accepted for publication."
+
+      - title: "Critical Discourse Analysis of Testimonies on Violence Against Women Published in the Journalistic Outlet Volcánicas"
+        releaseDate: "2026"
+        publisher: "Discurso & Sociedad (ISSN 1887-4606)"
+        summary: "Alzate Gallo, D. C., Marín Morales, M. I., & Arias, W. L. Accepted for publication."
+
+      - title: "Análisis sintáctico de metáforas conceptuales a partir de la gramática de dependencias y la estructura argumental del verbo"
+        releaseDate: "2023"
+        url: "https://doi.org/10.25100/lenguaje.v51i1.12086"
+        publisher: "Lenguaje, 51(1), 116–155"
+        summary: "Molina Mejía, J. M., Betancur Serna, M., Vallejo Zapata, V. J., & Marín Morales, M. I."
+
+      - title: "Un método de etiquetado semiautomático de corpus lingüísticos"
+        releaseDate: "2020"
+        publisher: "Investigación e Innovación en Ingeniería de Software, Vol. 4, pp. 163–179. Sello Editorial Tecnológico de Antioquia"
+        summary: "Marín, M. I. & Molina, J. M."
+
+      - title: "Etiquetado lingüístico de un corpus para la enseñanza del español como lengua extranjera: enfoque metodológico"
+        releaseDate: "2020"
+        publisher: "Tecnologías del Lenguaje Humano, Vol. 1, pp. 43–53. Sello Editorial Universidad de Medellín"
+        summary: "Marín, M. I., Pemberty, J. L., & Molina, J. M."
+
+      - title: "MAS-CommonKADS para el desarrollo de un Sistema Multiagente de Información de Recomendación de Rutas de Transporte: SINRUT"
+        releaseDate: "2014"
+        url: "https://ojs.tdea.edu.co/index.php/cuadernoactiva/article/view/199"
+        publisher: "Cuaderno Activa, 6, 33–47"
+        summary: "Marín, M. I. & Aguilar, L. A."
+
+      - title: "Caracterización de formatos de almacenamiento, transporte y visualización de datos geográficos"
+        releaseDate: "2014"
+        url: "https://doi.org/10.21501/21454086.1309"
+        publisher: "Lámpsakos, 12, 23–33"
+        summary: "Marín, M. I., Vargas, F. A., & Soto, D. E."
+
+      - title: "Comparación de dos métodos de representación semántica en interoperabilidad a la luz de la lingüística computacional"
+        releaseDate: "2013"
+        publisher: "Cuaderno Activa, 5, 51–56"
+        summary: "Marín, M. I."
+
+      - title: "Definición de un método basado en patrones de análisis para la interoperabilidad entre Sistemas de Información Geográfica"
+        releaseDate: "2012"
+        url: "http://www.scielo.org.co/scielo.php?script=sci_arttext&pid=S1794-12372012000200015"
+        publisher: "Revista EIA, 18, 179–194"
+        summary: "Zapata, C. M., Toro, F. M., & Marín, M. I."
+
+      - title: "Una síntesis conceptual de los servicios web para la gestión de información geográfica"
+        releaseDate: "2012"
+        publisher: "Ventana Informática, 27, 25–40"
+        summary: "Marín, M. I., Vargas, F. A., & Soto, D. E."
+
+      - title: "MapWindow vs. ArcGIS: hacia la caracterización de la interoperabilidad entre sistemas de información geográfica"
+        releaseDate: "2012"
+        url: "http://www.scielo.org.co/scielo.php?script=sci_arttext&pid=S0012-73532012000300018"
+        publisher: "Dyna, 173(2), 25–33"
+        summary: "Zapata, C. M., Toro, F. M., & Marín, M. I."
+
+      - title: "Acercamiento al desarrollo de Arquitecturas Orientadas a Servicios (SOA) en el dominio de los Sistemas de Información Geográfica"
+        releaseDate: "2012"
+        publisher: "Cuaderno Activa, 3, 67–76"
+        summary: "Marín, M. I."
+
+      - title: "Análisis conceptual de la interoperabilidad entre Sistemas de Información Geográfica"
+        releaseDate: "2011"
+        url: "https://doi.org/10.21501/21454086.835"
+        publisher: "Lámpsakos, 3(6), 68–76"
+        summary: "Zapata, C. M., Toro, F. M., & Marín, M. I."
+
+      - title: "Globos virtuales frente a sistemas de información geográfica: un análisis descriptivo de las herramientas y formatos soportados"
+        releaseDate: "2011"
+        url: "https://ojs.tdea.edu.co/index.php/cuadernoactiva/article/view/67"
+        publisher: "Cuaderno Activa, 2, 1–15"
+        summary: "Marín, M. I."
+
+      - title: "Un caso de estudio en interoperabilidad entre sistemas de información geográfica"
+        releaseDate: "2009"
+        url: "https://revistas.udem.edu.co/index.php/ingenierias/article/view/174/163"
+        publisher: "Revista Ingenierías Universidad de Medellín, 8(15), 75–90"
+        summary: "Zapata, C. M., González, G., & Marín, M. I."
+
+      - title: "Red piloto de información hidrometeorológica para el Valle de Aburrá"
+        releaseDate: "2008"
+        publisher: "Avances en Recursos Hidráulicos, 18"
+        summary: "Jiménez, J. F., Ramírez, C. J., Ochoa, A., Poveda, G., Zapata, C. M., & Marín, M. I."
+
     Projects:
       - name: MetaphorModel.org
         summary: >
