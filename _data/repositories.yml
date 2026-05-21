@@ -1,14 +1,24 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - maria-isabel-marin
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - maria-isabel-marin/metaphor-model
+  - maria-isabel-marin/metaphor-manager-front
+  - maria-isabel-marin/metaphor-manager-back
+  - maria-isabel-marin/melt-front
+  - maria-isabel-marin/melt-back
+  - maria-isabel-marin/ai-melt
+  - maria-isabel-marin/metacorpus-explorer-front
+  - maria-isabel-marin/metacorpus-explorer-back
+  - maria-isabel-marin/phd-corpus-front
+  - maria-isabel-marin/phd-corpus-back
+  - maria-isabel-marin/Metaphor-Extraction-With-GPT-3
+  - maria-isabel-marin/MetaphorIdentification_NEPLab
+  - maria-isabel-marin/MD_crosslingual
+  - maria-isabel-marin/meta4xnli
+  - maria-isabel-marin/LSCDBenchmark
+  - maria-isabel-marin/CEM_tagger
+  - maria-isabel-marin/exmachina-udea
+  - maria-isabel-marin/MetaforasConceptuales
