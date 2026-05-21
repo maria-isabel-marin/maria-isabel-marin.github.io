@@ -1,47 +1,24 @@
 ---
 layout: page
-permalink: /repositories/
 title: repositories
-description: Selected repositories supporting the research software projects presented on this site, including computational humanities tools, NLP experiments, corpus workflows, and metaphor analysis software.
+permalink: /repositories/
+description: >
+  Selected repositories supporting the research software projects presented on this site,
+  including computational humanities tools, NLP experiments, corpus workflows, and metaphor analysis software.
 nav: true
 nav_order: 4
 ---
 
-{% if site.data.repositories.github_users %}
+The repositories below are grouped by research function rather than listed exhaustively. They map to the curated work shown on the Projects page and reflect the tools, services, and experiments developed across MetaphorModel.org, MELT Processing, MetaCorpus Explorer, and related NLP studies on metaphor in Spanish.
 
-## GitHub users
+## Core research software ecosystem
 
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% for user in site.data.repositories.github_users %}
-    {% include repository/repo_user.liquid username=user %}
-  {% endfor %}
-</div>
+- **MetaphorModel.org** — [maria-isabel-marin/metaphor-model](https://github.com/maria-isabel-marin/metaphor-model)
+- **Metaphor Manager** — [maria-isabel-marin/metaphor-manager-front](https://github.com/maria-isabel-marin/metaphor-manager-front), [maria-isabel-marin/metaphor-manager-back](https://github.com/maria-isabel-marin/metaphor-manager-back)
+- **MELT Processing & AI-MELT** — [maria-isabel-marin/melt-front](https://github.com/maria-isabel-marin/melt-front), [maria-isabel-marin/melt-back](https://github.com/maria-isabel-marin/melt-back), [maria-isabel-marin/ai-melt](https://github.com/maria-isabel-marin/ai-melt)
+- **MetaCorpus Explorer** — [maria-isabel-marin/metacorpus-explorer-front](https://github.com/maria-isabel-marin/metacorpus-explorer-front), [maria-isabel-marin/metacorpus-explorer-back](https://github.com/maria-isabel-marin/metacorpus-explorer-back), [maria-isabel-marin/phd-corpus-front](https://github.com/maria-isabel-marin/phd-corpus-front), [maria-isabel-marin/phd-corpus-back](https://github.com/maria-isabel-marin/phd-corpus-back)
 
----
+## NLP and corpus tools
 
-{% if site.repo_trophies.enabled %}
-{% for user in site.data.repositories.github_users %}
-{% if site.data.repositories.github_users.size > 1 %}
-
-  <h4>{{ user }}</h4>
-  {% endif %}
-  <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% include repository/repo_trophies.liquid username=user %}
-  </div>
-
----
-
-{% endfor %}
-{% endif %}
-{% endif %}
-
-{% if site.data.repositories.github_repos %}
-
-## GitHub Repositories
-
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% for repo in site.data.repositories.github_repos %}
-    {% include repository/repo.liquid repository=repo %}
-  {% endfor %}
-</div>
-{% endif %}
+- **Metaphor identification experiments** — [maria-isabel-marin/Metaphor-Extraction-With-GPT-3](https://github.com/maria-isabel-marin/Metaphor-Extraction-With-GPT-3), [maria-isabel-marin/MetaphorIdentification_NEPLab](https://github.com/maria-isabel-marin/MetaphorIdentification_NEPLab), [maria-isabel-marin/MD_crosslingual](https://github.com/maria-isabel-marin/MD_crosslingual), [maria-isabel-marin/meta4xnli](https://github.com/maria-isabel-marin/meta4xnli), [maria-isabel-marin/LSCDBenchmark](https://github.com/maria-isabel-marin/LSCDBenchmark)
+- **Spanish corpus tagging and computational linguistics** — [maria-isabel-marin/CEM_tagger](https://github.com/maria-isabel-marin/CEM_tagger), [maria-isabel-marin/exmachina-udea](https://github.com/maria-isabel-marin/exmachina-udea), [maria-isabel-marin/MetaforasConceptuales](https://github.com/maria-isabel-marin/MetaforasConceptuales)
