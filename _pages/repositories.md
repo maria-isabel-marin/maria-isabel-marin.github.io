@@ -13,7 +13,7 @@ nav_order: 4
 - **MetaphorModel.org** — [`metaphor-model`](https://github.com/maria-isabel-marin/metaphor-model)
 - **Metaphor Manager** — [`metaphor-manager-front`](https://github.com/maria-isabel-marin/metaphor-manager-front), [`metaphor-manager-back`](https://github.com/maria-isabel-marin/metaphor-manager-back)
 - **MELT Processing & AI-MELT** — [`melt-front`](https://github.com/maria-isabel-marin/melt-front), [`melt-back`](https://github.com/maria-isabel-marin/melt-back), [`ai-melt`](https://github.com/maria-isabel-marin/ai-melt)
-- **MetaCorpus Explorer** — [`metacorpus-explorer-front`](https://github.com/maria-isabel-marin/metacorpus-explorer-front), [`metacorpus-explorer-back`](https://github.com/maria-isabel-marin/metacorpus-explorer-back), [`phd-corpus-front`](https://github.com/maria-isabel-marin/phd-corpus-front), [`phd-corpus-back`](https://github.com/maria-isabel-marin/phd-corpus-back)
+- **MetaCorpus Explorer** — [`metacorpus-explorer-front`](https://github.com/maria-isabel-marin/metacorpus-explorer-front), [`metacorpus-explorer-back`](https://github.com/maria-isabel-marin/metacorpus-explorer-back)
 
 ## Research methods and corpus resources
 
@@ -23,3 +23,4 @@ nav_order: 4
 ## Supervised and collaborative academic work
 
 - **acd-vbg** — [`acd-vbg`](https://github.com/maria-isabel-marin/acd-vbg), forked from [`dora-alzate/acd-vbg`](https://github.com/dora-alzate/acd-vbg). Included here as part of supervised academic work, not as authored software.
+- **Metáforas Conceptuales Wiki** — [`MetaforasConceptuales wiki`](https://github.com/maria-isabel-marin/MetaforasConceptuales/wiki). Conceptual metaphor database developed in the context of a research project I co-directed; included here as a collaborative research resource rather than as a standalone software product.
