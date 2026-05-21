@@ -24,8 +24,8 @@ ninja.data = [{
             window.location.href = "/projects/";
           },
         },{id: "nav-repositories",
-          title: "repositories",
-          description: "Selected repositories supporting the research software projects presented on this site, including computational humanities tools, NLP experiments, corpus workflows, and metaphor analysis software.",
+          title: "Repositories",
+          description: "Curated repositories connected to the research software, methods, and supervised academic work presented on this site.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/repositories/";
