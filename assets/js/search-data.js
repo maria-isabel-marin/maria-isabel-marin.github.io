@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-projects",
           title: "Projects",
-          description: "Selected project case studies in research software engineering, computational humanities, NLP, and corpus-based metaphor analysis. Each project page explains the research problem, software contribution, and relationship to the underlying repositories.",
+          description: "Selected project case studies in research software engineering, computational humanities, corpus-based metaphor analysis, and collaborative research methods. Projects explain research purpose, software or methodological contribution, and the relationship to the underlying repositories.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -404,34 +404,34 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "projects-metaphormodel-org",
           title: 'MetaphorModel.org',
-          description: "Research software ecosystem for modelling, managing, and analysing conceptual metaphors and cultural narratives in textual corpora.",
+          description: "Umbrella research software ecosystem for modelling, annotating, processing, and exploring conceptual metaphors in textual corpora.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_metaphormodel/";
             },},{id: "projects-metaphor-manager",
           title: 'Metaphor Manager',
-          description: "Web application for managing, reviewing, and analysing metaphor annotations in textual corpora.",
+          description: "Annotation and review workflow for conceptual metaphor research, with provenance and revision history as first-class concerns.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_metaphor-manager/";
             },},{id: "projects-melt-processing-amp-ai-melt",
           title: 'MELT Processing &amp;amp; AI-MELT',
-          description: "Computational pipeline operationalising Metaphor Field-Loop Theory (MELT) through structured workflows and AI-assisted processing.",
+          description: "Computational modelling of Metaphor Field-Loop Theory and AI-assisted processing of metaphor in textual corpora.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_melt-processing/";
             },},{id: "projects-metacorpus-explorer",
           title: 'MetaCorpus Explorer',
-          description: "Corpus exploration platform for navigating metaphor annotations and cultural narrative patterns derived from doctoral research data.",
+          description: "Corpus exploration platform for metaphor annotations and cultural narrative patterns, with research data ethics treated as a core design concern.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_metacorpus-explorer/";
-            },},{id: "projects-metaphor-identification-amp-nlp-experiments",
-          title: 'Metaphor Identification &amp;amp; NLP Experiments',
-          description: "Collection of NLP experiments and tools for metaphor identification, cross-lingual metaphor detection, and corpus-based linguistic annotation.",
+            },},{id: "projects-research-lab-amp-spanish-metaphor-annotation-methods",
+          title: 'Research Lab &amp;amp; Spanish Metaphor Annotation Methods',
+          description: "Research materials and a systematised instrument for identifying, annotating, and analysing conceptual metaphors in Spanish corpora, refined through cognitive linguistics and discourse analysis.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/5_nlp-experiments/";
-            },},{id: "projects-spanish-corpus-tagging-amp-computational-linguistics-tools",
-          title: 'Spanish Corpus Tagging &amp;amp; Computational Linguistics Tools',
-          description: "Research-oriented corpus tooling for Spanish linguistic analysis, annotation, and computational metaphor studies.",
+              window.location.href = "/projects/5_research-methods/";
+            },},{id: "projects-supervised-amp-collaborative-academic-resources",
+          title: 'Supervised &amp;amp; Collaborative Academic Resources',
+          description: "Collaborative and supervised academic work, including a supervised thesis project and a conceptual metaphor database co-developed in the context of a research project I co-directed.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/6_spanish-corpus-tools/";
+              window.location.href = "/projects/6_collaborative-resources/";
             },},{id: "teachings-computational-linguistics",
           title: 'Computational Linguistics',
           description: "Courses in the computational linguistics track at Universidad de Antioquia, Facultad de Comunicaciones y Filología (Filología Hispánica program).",
