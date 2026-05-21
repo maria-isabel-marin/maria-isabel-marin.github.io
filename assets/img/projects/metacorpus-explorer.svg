@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250" role="img" aria-label="MetaCorpus Explorer thumbnail">
+  <rect width="400" height="250" fill="#ece9f0"/>
+  <g fill="#ffffff" stroke="#4d3f7a" stroke-width="1.4">
+    <rect x="100" y="60" width="36" height="36" rx="3"/>
+    <rect x="146" y="60" width="36" height="36" rx="3"/>
+    <rect x="192" y="60" width="36" height="36" rx="3"/>
+    <rect x="238" y="60" width="36" height="36" rx="3"/>
+    <rect x="100" y="106" width="36" height="36" rx="3"/>
+    <rect x="146" y="106" width="36" height="36" rx="3"/>
+    <rect x="192" y="106" width="36" height="36" rx="3"/>
+    <rect x="238" y="106" width="36" height="36" rx="3"/>
+    <rect x="100" y="152" width="36" height="36" rx="3"/>
+    <rect x="146" y="152" width="36" height="36" rx="3"/>
+    <rect x="192" y="152" width="36" height="36" rx="3"/>
+    <rect x="238" y="152" width="36" height="36" rx="3"/>
+  </g>
+  <g fill="none" stroke="#4d3f7a" stroke-width="2.2" stroke-linecap="round">
+    <circle cx="206" cy="120" r="22"/>
+    <line x1="222" y1="136" x2="240" y2="154"/>
+  </g>
+</svg>
