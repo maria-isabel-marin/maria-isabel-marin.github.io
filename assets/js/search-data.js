@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-projects",
           title: "Projects",
-          description: "Research software projects across computational linguistics, NLP, and digital humanities. Projects are grouped by research function rather than by individual repository, because several components are split across front-end, back-end, model, and experimental repositories.",
+          description: "Selected project case studies in research software engineering, computational humanities, NLP, and corpus-based metaphor analysis. Each project page explains the research problem, software contribution, and relationship to the underlying repositories.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
