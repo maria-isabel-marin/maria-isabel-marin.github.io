@@ -3,7 +3,7 @@ layout: page
 permalink: /teaching/
 title: teaching
 description: Courses taught at undergraduate and graduate level (2011–present).
-nav: true
+nav: false
 nav_order: 6
 ---
 
