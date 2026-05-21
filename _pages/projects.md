@@ -1,11 +1,15 @@
 ---
 layout: page
-title: projects
+title: Projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: >
+  Research software projects across computational linguistics, NLP, and digital
+  humanities. Projects are grouped by research function rather than by
+  individual repository, because several components are split across front-end,
+  back-end, model, and experimental repositories.
 nav: true
 nav_order: 3
-display_categories: [work, fun]
+display_categories: [research software, nlp and corpus tools]
 horizontal: false
 ---
 
@@ -14,7 +18,8 @@ horizontal: false
 {% if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->
   {% for category in page.display_categories %}
-  <a id="{{ category }}" href=".#{{ category }}">
+  {% assign category_slug = category | slugify %}
+  <a id="{{ category_slug }}" href="#{{ category_slug }}">
     <h2 class="category">{{ category }}</h2>
   </a>
   {% assign categorized_projects = site.projects | where: "category", category %}
