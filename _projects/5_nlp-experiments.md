@@ -9,33 +9,60 @@ category: nlp and corpus tools
 github: https://github.com/maria-isabel-marin/meta4xnli
 ---
 
+## Overview
+
 A collection of **experimental research repositories** exploring different
-angles of metaphor identification: prompting LLMs, supervised sequence
-labelling, cross-lingual transfer, and benchmarking against established
-datasets. These repositories are kept separate from the
-[MetaphorModel.org](/projects/1_metaphormodel/) stack on purpose — they
-document experimental research rather than maintained applications.
+angles of metaphor identification: LLM prompting, supervised sequence
+labelling, cross-lingual transfer, and engagement with established
+benchmarks. These repositories are intentionally kept separate from the
+[MetaphorModel.org](/projects/1_metaphormodel/) stack because their
+purpose is different: they document experimental research, not maintained
+applications.
 
-## Repositories (experimental)
+## Research problem
 
-- [`Metaphor-Extraction-With-GPT-3`](https://github.com/maria-isabel-marin/Metaphor-Extraction-With-GPT-3) — early experiments using LLM prompting for metaphor extraction
-- [`MetaphorIdentification_NEPLab`](https://github.com/maria-isabel-marin/MetaphorIdentification_NEPLab) — metaphor identification work in the NEPLab setting
-- [`MD_crosslingual`](https://github.com/maria-isabel-marin/MD_crosslingual) — cross-lingual metaphor detection experiments
-- [`meta4xnli`](https://github.com/maria-isabel-marin/meta4xnli) — experiments connecting metaphor detection with XNLI-style cross-lingual evaluation
-- [`LSCDBenchmark`](https://github.com/maria-isabel-marin/LSCDBenchmark) — work around lexical semantic change benchmarking
+Metaphor identification at corpus scale is an open problem, especially
+for Spanish and other non-English languages. Different methods —
+rule-based, supervised, LLM-prompted — make different trade-offs in
+recall, precision, and interpretability, and there is no
+off-the-shelf solution. These experiments are how I test specific
+methods before deciding what is worth consolidating into the main
+ecosystem.
 
-## What it's for
+## What these repositories contain
 
-- Trying out methods (rule-based, supervised, LLM-prompted) before deciding
-  what to consolidate into the main ecosystem
-- Comparing approaches on shared datasets and benchmarks
-- Providing replicable starting points for collaborators who want to extend
-  a specific line of inquiry
+- Per-experiment code and notes documenting a specific method or
+  comparison.
+- Replicable starting points for collaborators who want to extend a
+  particular line of inquiry.
+- Engagement with shared datasets and benchmarks so that results can
+  be compared across approaches.
+
+## Research software contribution
+
+The contribution here is methodological rather than architectural. The
+value is in keeping experiments separate, legible, and reproducible —
+each repository is a research artefact tied to a specific setup, so
+later decisions about what to bring into the main ecosystem are
+traceable to a documented experiment rather than to undocumented
+intuition.
+
+## Repositories
+
+Detailed code index lives in [Repositories](/repositories/). These are
+experimental setups; not all repositories are authored libraries — some
+engage with external benchmarks or codebases as part of a specific
+experiment. Treat per-repository READMEs as the primary entry points.
+
+- [`Metaphor-Extraction-With-GPT-3`](https://github.com/maria-isabel-marin/Metaphor-Extraction-With-GPT-3)
+- [`MetaphorIdentification_NEPLab`](https://github.com/maria-isabel-marin/MetaphorIdentification_NEPLab)
+- [`MD_crosslingual`](https://github.com/maria-isabel-marin/MD_crosslingual)
+- [`meta4xnli`](https://github.com/maria-isabel-marin/meta4xnli)
+- [`LSCDBenchmark`](https://github.com/maria-isabel-marin/LSCDBenchmark)
 
 ## Status
 
 **Experimental.** Each repository should be read as a research artefact
 documenting a specific experimental setup, not as a maintained library.
 Maintenance is best-effort and tied to the lifecycle of the underlying
-research question. Per-repository READMEs are the primary entry points;
-not all repositories have stable APIs or releases.
+research question. Not all repositories have stable APIs or releases.
