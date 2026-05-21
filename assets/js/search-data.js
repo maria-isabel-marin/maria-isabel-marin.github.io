@@ -17,8 +17,8 @@ ninja.data = [{
             window.location.href = "/publications/";
           },
         },{id: "nav-projects",
-          title: "projects",
-          description: "A growing collection of your cool projects.",
+          title: "Projects",
+          description: "Research software projects across computational linguistics, NLP, and digital humanities. Projects are grouped by research function rather than by individual repository, because several components are split across front-end, back-end, model, and experimental repositories.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -423,51 +423,36 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+          section: "News",},{id: "projects-metaphormodel-org",
+          title: 'MetaphorModel.org',
+          description: "Research software ecosystem for modelling, managing, and analysing conceptual metaphors and cultural narratives in textual corpora.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+              window.location.href = "/projects/1_metaphormodel/";
+            },},{id: "projects-metaphor-manager",
+          title: 'Metaphor Manager',
+          description: "Web application for managing, reviewing, and analysing metaphor annotations in textual corpora.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
+              window.location.href = "/projects/2_metaphor-manager/";
+            },},{id: "projects-melt-processing-amp-ai-melt",
+          title: 'MELT Processing &amp;amp; AI-MELT',
+          description: "Computational pipeline operationalising Metaphor Field-Loop Theory (MELT) through structured workflows and AI-assisted processing.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
+              window.location.href = "/projects/3_melt-processing/";
+            },},{id: "projects-metacorpus-explorer",
+          title: 'MetaCorpus Explorer',
+          description: "Corpus exploration platform for navigating metaphor annotations and cultural narrative patterns derived from doctoral research data.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
+              window.location.href = "/projects/4_metacorpus-explorer/";
+            },},{id: "projects-metaphor-identification-amp-nlp-experiments",
+          title: 'Metaphor Identification &amp;amp; NLP Experiments',
+          description: "Collection of NLP experiments and tools for metaphor identification, cross-lingual metaphor detection, and corpus-based linguistic annotation.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/5_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
+              window.location.href = "/projects/5_nlp-experiments/";
+            },},{id: "projects-spanish-corpus-tagging-amp-computational-linguistics-tools",
+          title: 'Spanish Corpus Tagging &amp;amp; Computational Linguistics Tools',
+          description: "Research-oriented corpus tooling for Spanish linguistic analysis, annotation, and computational metaphor studies.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/8_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/9_project/";
+              window.location.href = "/projects/6_spanish-corpus-tools/";
             },},{id: "teachings-computational-linguistics",
           title: 'Computational Linguistics',
           description: "Courses in the computational linguistics track at Universidad de Antioquia, Facultad de Comunicaciones y Filología (Filología Hispánica program).",
