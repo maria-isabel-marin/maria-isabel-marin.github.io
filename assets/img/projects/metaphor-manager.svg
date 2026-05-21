@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250" role="img" aria-label="Metaphor Manager thumbnail">
+  <rect width="400" height="250" fill="#f1efe9"/>
+  <g fill="#ffffff" stroke="#7a5a2b" stroke-width="1.6">
+    <rect x="118" y="58" width="150" height="120" rx="4"/>
+    <rect x="132" y="72" width="150" height="120" rx="4"/>
+    <rect x="146" y="86" width="150" height="120" rx="4"/>
+  </g>
+  <g stroke="#7a5a2b" stroke-width="1.6" fill="none" stroke-linecap="round">
+    <line x1="162" y1="110" x2="270" y2="110"/>
+    <line x1="162" y1="132" x2="270" y2="132"/>
+    <line x1="162" y1="154" x2="240" y2="154"/>
+    <line x1="162" y1="176" x2="220" y2="176"/>
+  </g>
+  <polyline points="252,158 262,168 282,148" fill="none" stroke="#7a5a2b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

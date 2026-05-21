@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250" role="img" aria-label="MetaphorModel.org thumbnail">
+  <rect width="400" height="250" fill="#eef2f6"/>
+  <g fill="none" stroke="#2b6e8f" stroke-width="1.6">
+    <circle cx="200" cy="125" r="20"/>
+    <circle cx="200" cy="125" r="48"/>
+    <circle cx="200" cy="125" r="78"/>
+    <circle cx="200" cy="125" r="108"/>
+  </g>
+  <g fill="#2b6e8f">
+    <circle cx="200" cy="47" r="4.5"/>
+    <circle cx="200" cy="203" r="4.5"/>
+    <circle cx="92" cy="125" r="4.5"/>
+    <circle cx="308" cy="125" r="4.5"/>
+    <circle cx="200" cy="125" r="4"/>
+  </g>
+</svg>

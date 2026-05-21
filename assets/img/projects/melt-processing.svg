@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250" role="img" aria-label="MELT Processing thumbnail">
+  <rect width="400" height="250" fill="#eef0ec"/>
+  <g fill="none" stroke="#3f6b3a" stroke-width="1.8" stroke-linecap="round">
+    <path d="M40,160 C100,80 160,240 220,140 S340,80 360,140"/>
+    <path d="M40,180 C100,100 160,260 220,160 S340,100 360,160" opacity="0.55"/>
+    <path d="M40,140 C100,60 160,220 220,120 S340,60 360,120" opacity="0.35"/>
+  </g>
+  <g fill="#3f6b3a">
+    <circle cx="80" cy="138" r="3.5"/>
+    <circle cx="200" cy="170" r="3.5"/>
+    <circle cx="320" cy="120" r="3.5"/>
+  </g>
+</svg>

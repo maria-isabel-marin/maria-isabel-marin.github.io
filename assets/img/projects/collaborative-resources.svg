@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250" role="img" aria-label="Collaborative resources thumbnail">
+  <rect width="400" height="250" fill="#e9eff0"/>
+  <g fill="none" stroke="#2f6d6a" stroke-width="1.8">
+    <circle cx="160" cy="125" r="58"/>
+    <circle cx="240" cy="125" r="58"/>
+    <circle cx="200" cy="80" r="58"/>
+  </g>
+  <g fill="#2f6d6a">
+    <circle cx="160" cy="125" r="3.5"/>
+    <circle cx="240" cy="125" r="3.5"/>
+    <circle cx="200" cy="80" r="3.5"/>
+    <circle cx="200" cy="125" r="3"/>
+  </g>
+</svg>
