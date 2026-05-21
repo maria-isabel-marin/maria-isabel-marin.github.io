@@ -9,53 +9,57 @@ category: research software
 github: https://github.com/maria-isabel-marin/metaphor-model
 ---
 
-**MetaphorModel.org** is a research software ecosystem developed as part of
-my doctoral work on conceptual metaphor and cultural discourse. It groups
-together three complementary tools — *Metaphor Manager*, *MELT Processing /
-AI-MELT*, and *MetaCorpus Explorer* — behind a shared data model for
-metaphor annotations and a shared research workflow.
+## Overview
 
-The ecosystem is designed around **research software engineering in the
-humanities**: each component is a small, focused service, structured as
-separate front-end/back-end components, and intended to be reusable beyond
-the original PhD corpus.
+**MetaphorModel.org** is the umbrella research software ecosystem developed
+in the context of my doctoral work on conceptual metaphor and cultural
+discourse. It is the architectural case study for the rest of this
+portfolio: a small set of focused services, organised around a shared data
+model for metaphor annotations and a shared research workflow, rather than
+a single monolithic application.
 
-## Components
+## Research problem
 
-- **Shared data model** — shared conceptual and data model for metaphor analysis.
-  - [`metaphor-model`](https://github.com/maria-isabel-marin/metaphor-model)
-- **Metaphor Manager** — web app for managing and reviewing metaphor annotations.
-  - [`metaphor-manager-front`](https://github.com/maria-isabel-marin/metaphor-manager-front)
-  - [`metaphor-manager-back`](https://github.com/maria-isabel-marin/metaphor-manager-back)
-- **MELT Processing / AI-MELT** — NLP-AI pipeline operationalising Metaphor Field-Loop Theory.
-  - [`melt-front`](https://github.com/maria-isabel-marin/melt-front)
-  - [`melt-back`](https://github.com/maria-isabel-marin/melt-back)
-  - [`ai-melt`](https://github.com/maria-isabel-marin/ai-melt)
-- **MetaCorpus Explorer** — corpus exploration platform for the doctoral metaphor dataset.
-  - [`metacorpus-explorer-front`](https://github.com/maria-isabel-marin/metacorpus-explorer-front)
-  - [`metacorpus-explorer-back`](https://github.com/maria-isabel-marin/metacorpus-explorer-back)
-  - [`phd-corpus-front`](https://github.com/maria-isabel-marin/phd-corpus-front)
-  - [`phd-corpus-back`](https://github.com/maria-isabel-marin/phd-corpus-back)
+Studying metaphor and cultural narrative across large textual corpora
+requires more than ad-hoc scripts. Annotations, reviewer workflows,
+theoretical constructs, and exploration tools each tend to drift apart
+into incompatible artefacts. The ecosystem addresses that fragmentation by
+treating the data model as the contract that holds annotation, processing,
+and exploration together.
 
-## Research context
+## What it provides
 
-The ecosystem supports the analysis of cultural narratives in Spanish-language
-corpora, with a primary focus on conflict and peace discourse derived from
-Colombia's Truth Commission Final Report. It sits at the intersection of
-**computational linguistics**, **cognitive linguistics**, and **digital
-humanities**, and is intended to be reusable by other researchers working on
-metaphor in Spanish and other languages.
+- A shared conceptual and data model for metaphor analysis that the other
+  components depend on.
+- A coordinated set of components: *Metaphor Manager* for
+  annotation/review, *MELT Processing / AI-MELT* for theory-driven
+  processing, and *MetaCorpus Explorer* for corpus exploration.
+- Clear architectural boundaries between deterministic data layers and
+  AI-assisted processing, so the role of LLMs in the workflow is explicit
+  and replaceable.
+- A research workflow expressed in the architecture itself: ingest →
+  annotate → review → process → explore.
 
-## Engineering profile
+## Research software contribution
 
-- Modular, multi-repository architecture with clear front-end/back-end
-  boundaries and a shared model layer
-- Designed around explicit research workflows: ingest → annotate → review →
-  process → explore
-- AI / LLM-assisted components are kept separate from the deterministic data
-  layer
+The contribution is primarily architectural and methodological: it shows
+how a humanities research programme can be supported by a modular,
+multi-repository system with explicit interfaces, rather than by
+disposable notebooks. The shared model layer is what makes the ecosystem
+reusable beyond the original PhD corpus, and what allows the
+annotation, processing, and exploration tools to interoperate.
+
+## Repositories
+
+Detailed code index lives in [Repositories](/repositories/). Entry points
+for this ecosystem:
+
+- [`metaphor-model`](https://github.com/maria-isabel-marin/metaphor-model)
+- Metaphor Manager — [`metaphor-manager-front`](https://github.com/maria-isabel-marin/metaphor-manager-front), [`metaphor-manager-back`](https://github.com/maria-isabel-marin/metaphor-manager-back)
+- MELT Processing / AI-MELT — [`melt-front`](https://github.com/maria-isabel-marin/melt-front), [`melt-back`](https://github.com/maria-isabel-marin/melt-back), [`ai-melt`](https://github.com/maria-isabel-marin/ai-melt)
+- MetaCorpus Explorer — [`metacorpus-explorer-front`](https://github.com/maria-isabel-marin/metacorpus-explorer-front), [`metacorpus-explorer-back`](https://github.com/maria-isabel-marin/metacorpus-explorer-back)
 
 ## Status
 
-Active research software. Individual components are at different maturity
-levels — see each component's project page for specifics.
+Active research software. Components are at different maturity levels;
+see each component's project page for specifics.
