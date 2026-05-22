@@ -5,7 +5,6 @@ permalink: /projects/
 description: "Selected project case studies in research software engineering, computational humanities, corpus-based metaphor analysis, and collaborative research methods. Projects explain research purpose, software or methodological contribution, and the relationship to the underlying repositories."
 nav: true
 nav_order: 3
-display_categories: [research software, research methods]
 horizontal: false
 ---
 
