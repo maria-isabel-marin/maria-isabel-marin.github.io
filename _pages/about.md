@@ -3,7 +3,7 @@ layout: about
 title: About
 permalink: /
 subtitle: >
-  Research Software Engineer · PhD Candidate, <a href="https://www.rug.nl/staff/m.i.marin.morales/" target="_blank">University of Groningen</a> · Computational Humanities & NLP/AI
+  Computational Humanities · Research Software · NLP/AI
 
 profile:
   align: right
@@ -14,7 +14,7 @@ profile:
     <p>Faculty of Arts</p>
     <p>Groningen, Netherlands</p>
 
-selected_papers: true
+selected_papers: false
 social: true
 
 announcements:

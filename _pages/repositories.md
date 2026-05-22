@@ -24,3 +24,5 @@ nav_order: 4
 
 - **acd-vbg** — [`acd-vbg`](https://github.com/maria-isabel-marin/acd-vbg), forked from [`dora-alzate/acd-vbg`](https://github.com/dora-alzate/acd-vbg). Included here as part of supervised academic work, not as authored software.
 - **Metáforas Conceptuales Wiki** — [`MetaforasConceptuales wiki`](https://github.com/maria-isabel-marin/MetaforasConceptuales/wiki). Conceptual metaphor database developed in the context of a research project I co-directed; included here as a collaborative research resource rather than as a standalone software product.
+
+For a narrative overview of these repositories, see the [Projects](/projects/) page.
