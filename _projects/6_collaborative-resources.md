@@ -6,7 +6,7 @@ description: >
   thesis project and a conceptual metaphor database co-developed in the
   context of a research project I co-directed.
 img: assets/img/projects/collaborative-resources.svg
-importance: 2
+importance: 6
 category: research methods
 github: https://github.com/maria-isabel-marin/MetaforasConceptuales
 ---

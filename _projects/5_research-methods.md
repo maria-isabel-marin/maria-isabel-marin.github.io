@@ -6,7 +6,7 @@ description: >
   annotating, and analysing conceptual metaphors in Spanish corpora,
   refined through cognitive linguistics and discourse analysis.
 img: assets/img/projects/research-methods.svg
-importance: 1
+importance: 5
 category: research methods
 github: https://github.com/maria-isabel-marin/research-lab
 ---
