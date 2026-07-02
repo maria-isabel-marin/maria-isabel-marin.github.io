@@ -3,7 +3,7 @@ layout: about
 title: About
 permalink: /
 subtitle: >
-  Computational Humanities · Research Software · NLP/AI
+  Research Software Engineering · Digital Humanities · Full-stack & NLP/AI
 
 profile:
   align: right
@@ -24,17 +24,19 @@ latest_posts:
   enabled: false
 ---
 
-I am a Systems and Computer Engineer with an MSc in Systems Engineering, and a PhD candidate in Humanities at the University of Groningen. My work focuses on research software for computational humanities, at the intersection of systems engineering, NLP/AI, and data modelling.
+I am a Systems and Computer Engineer with an MSc in Systems Engineering, finalising a PhD in Digital Humanities at the University of Groningen. I build research software — full-stack applications, data pipelines, APIs, and visualisation tools that turn research needs into reliable, reusable systems.
 
-My current research centres on **MetaphorModel.org**, an AI-enabled research software ecosystem for modelling, managing, and analysing conceptual metaphors and cultural narratives in textual corpora.
+My work sits between software and data engineering, applied NLP/AI, and university research. Over more than a decade it has moved across domains — water resources and environmental monitoring, transitional justice, higher-education innovation, and now computational humanities — with a consistent focus: designing systems that let researchers and users work with data rigorously and openly.
 
-**Research software focus**
+My current doctoral project is **[MetaphorModel.org](/projects/1_metaphormodel/)**, a full-stack research software ecosystem for modelling, managing, and analysing conceptual metaphors in textual corpora. I designed the shared data model, back-end APIs, front-end interfaces, and deployment, and released the ecosystem as open, reusable research software.
 
-- Computational humanities and cultural narrative analysis
-- NLP/AI workflows for metaphor research
-- Data modelling, corpus workflows, and annotation systems
-- FAIR and Open Science practices for reproducible research
-- Interdisciplinary collaboration between researchers and technical teams
+**How I work**
+
+- Full-stack development in Python and TypeScript — React/Next.js, FastAPI/NestJS, PostgreSQL/MongoDB
+- Data pipelines, ETL, and visualisation for research and public communication (Plotly, NetworkX, pyvis)
+- Containerised deployment, testing, and code-quality gates (Docker, pytest, pre-commit) treated as part of the research workflow
+- FAIR and Open Science practices — public repositories, packaging, reproducibility, documentation
+- Interdisciplinary collaboration between researchers, developers, and users
 
 **Featured work**
 
